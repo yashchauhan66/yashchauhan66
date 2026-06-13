@@ -3,16 +3,19 @@
 </p>
 
 <p align="center">
-  <a href="https://yashchauhanportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-Launch-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/yashchauhan66"><img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:yashchauhan6660@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E11D48?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/yashchauhan66"><img src="https://img.shields.io/badge/GitHub-yashchauhan66-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://yashchauhanportfolio.lovable.app/">Portfolio</a>
+  &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/yashchauhan66">LinkedIn</a>
+  &nbsp;|&nbsp;
+  <a href="mailto:yashchauhan6660@gmail.com">Email</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/yashchauhan66">GitHub</a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yashchauhan66&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/yashchauhan66?style=flat-square&color=10B981&label=FOLLOWERS&logo=github&logoColor=white" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/yashchauhan66?style=flat-square&color=F59E0B&label=STARS&logo=github&logoColor=white" alt="Stars" />
+  <img src="https://komarev.com/ghpvc/?username=yashchauhan66&style=flat&color=0EA5E9&label=Profile%20views" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/yashchauhan66?style=flat&color=10B981&label=Followers&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/yashchauhan66?style=flat&color=F59E0B&label=Stars&logo=github&logoColor=white" alt="Stars" />
 </p>
 
 ## Building Product-Grade Software
@@ -236,9 +239,11 @@ My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, Mon
 ## Connect
 
 <p align="center">
-  <a href="mailto:yashchauhan6660@gmail.com"><img src="https://img.shields.io/badge/Email-Send_Message-E11D48?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com/in/yashchauhan66"><img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://yashchauhanportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-View_Work-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:yashchauhan6660@gmail.com">Email</a>
+  &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/yashchauhan66">LinkedIn</a>
+  &nbsp;|&nbsp;
+  <a href="https://yashchauhanportfolio.lovable.app/">Portfolio</a>
 </p>
 
 <p align="center">

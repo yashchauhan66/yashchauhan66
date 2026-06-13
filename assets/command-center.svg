@@ -1,48 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Yash Chauhan engineer command center">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03121f"/><stop offset=".6" stop-color="#081827"/><stop offset="1" stop-color="#151225"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset=".5" stop-color="#10b981"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
-    <filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#000" flood-opacity=".4"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111f"/><stop offset=".62" stop-color="#081827"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset=".38" stop-color="#10b981"/><stop offset=".72" stop-color="#f59e0b"/><stop offset="1" stop-color="#e11d48"/></linearGradient>
+    <filter id="s" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000" flood-opacity=".35"/></filter>
     <style>
-      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;fill:#f8fafc}.m{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:550;fill:#94a3b8}.b{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:750;fill:#dbeafe}.mono{font-family:JetBrains Mono,Consolas,monospace;font-weight:700;fill:#e5e7eb}.dash{stroke:url(#edge);stroke-width:3;stroke-dasharray:8 12;animation:dash 7s linear infinite}.card{animation:lift 6s ease-in-out infinite}@keyframes dash{to{stroke-dashoffset:-180}}@keyframes lift{50%{transform:translateY(-8px)}}
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;fill:#f8fafc}.m{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:550;fill:#94a3b8}.b{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:760;fill:#e5e7eb}.mono{font-family:JetBrains Mono,Consolas,monospace;font-weight:800;fill:#e5e7eb}.dash{stroke:url(#edge);stroke-width:3;stroke-dasharray:9 12;animation:dash 7s linear infinite}.card{animation:lift 6s ease-in-out infinite}@keyframes dash{to{stroke-dashoffset:-200}}@keyframes lift{50%{transform:translateY(-6px)}}
     </style>
   </defs>
   <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
-  <circle cx="1030" cy="35" r="260" fill="#38bdf8" opacity=".08"/>
-  <circle cx="190" cy="410" r="260" fill="#10b981" opacity=".08"/>
+  <circle cx="1040" cy="36" r="250" fill="#38bdf8" opacity=".07"/>
+  <circle cx="170" cy="410" r="245" fill="#10b981" opacity=".06"/>
   <text x="60" y="68" class="h" font-size="34">Engineer Command Center</text>
-  <text x="60" y="102" class="m" font-size="18">Where product thinking, backend depth, cloud delivery, and AI systems meet.</text>
-  <path d="M190 260 H1010" class="dash" opacity=".72"/>
-  <g transform="translate(60 145)" filter="url(#s)" class="card">
-    <path d="M0 34 L58 0 H260 L318 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
-    <path d="M0 34 L58 0 H260 L318 34 H0 Z" fill="#0d2942" stroke="#38bdf8"/>
-    <text x="26" y="68" class="mono" font-size="14" fill="#38bdf8">01 / PRODUCT</text>
-    <text x="26" y="108" class="h" font-size="27">Full Stack</text>
-    <text x="26" y="143" class="m" font-size="16">React, Node, APIs</text>
-    <text x="26" y="173" class="m" font-size="16">Auth, dashboards, SaaS</text>
+  <text x="60" y="102" class="m" font-size="18">A clear snapshot of what I build, where I operate, and how I deliver.</text>
+  <rect x="60" y="126" width="1080" height="4" rx="2" fill="url(#edge)" opacity=".9"/>
+
+  <g transform="translate(60 160)" filter="url(#s)" class="card">
+    <rect width="255" height="205" rx="22" fill="#07111f" stroke="#1e3a5f"/>
+    <rect x="20" y="20" width="48" height="48" rx="14" fill="#0b2033" stroke="#38bdf8"/>
+    <text x="44" y="51" text-anchor="middle" class="mono" font-size="15" fill="#38bdf8">01</text>
+    <text x="22" y="96" class="mono" font-size="13" fill="#38bdf8">PRODUCT ENGINEERING</text>
+    <text x="22" y="132" class="h" font-size="25">Full Stack</text>
+    <text x="22" y="165" class="m" font-size="15">React, Node, APIs</text>
+    <text x="22" y="190" class="m" font-size="15">Auth, dashboards, SaaS</text>
   </g>
-  <g transform="translate(333 145)" filter="url(#s)" class="card" style="animation-delay:.5s">
-    <path d="M0 34 L58 0 H260 L318 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
-    <path d="M0 34 L58 0 H260 L318 34 H0 Z" fill="#0b2a31" stroke="#10b981"/>
-    <text x="26" y="68" class="mono" font-size="14" fill="#10b981">02 / CLOUD</text>
-    <text x="26" y="108" class="h" font-size="27">Deploy Ready</text>
-    <text x="26" y="143" class="m" font-size="16">Docker, Kubernetes</text>
-    <text x="26" y="173" class="m" font-size="16">AWS, CI/CD, GitOps</text>
+  <g transform="translate(335 160)" filter="url(#s)" class="card" style="animation-delay:.45s">
+    <rect width="255" height="205" rx="22" fill="#07111f" stroke="#1e3a5f"/>
+    <rect x="20" y="20" width="48" height="48" rx="14" fill="#0b2a31" stroke="#10b981"/>
+    <text x="44" y="51" text-anchor="middle" class="mono" font-size="15" fill="#10b981">02</text>
+    <text x="22" y="96" class="mono" font-size="13" fill="#10b981">BACKEND + CLOUD</text>
+    <text x="22" y="132" class="h" font-size="25">Deploy Ready</text>
+    <text x="22" y="165" class="m" font-size="15">Docker, Kubernetes</text>
+    <text x="22" y="190" class="m" font-size="15">AWS, CI/CD, GitOps</text>
   </g>
-  <g transform="translate(606 145)" filter="url(#s)" class="card" style="animation-delay:1s">
-    <path d="M0 34 L58 0 H260 L318 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
-    <path d="M0 34 L58 0 H260 L318 34 H0 Z" fill="#2b2110" stroke="#f59e0b"/>
-    <text x="26" y="68" class="mono" font-size="14" fill="#f59e0b">03 / AI</text>
-    <text x="26" y="108" class="h" font-size="27">RAG Systems</text>
-    <text x="26" y="143" class="m" font-size="16">LangChain, Pinecone</text>
-    <text x="26" y="173" class="m" font-size="16">Embeddings, LLM APIs</text>
+  <g transform="translate(610 160)" filter="url(#s)" class="card" style="animation-delay:.9s">
+    <rect width="255" height="205" rx="22" fill="#07111f" stroke="#1e3a5f"/>
+    <rect x="20" y="20" width="48" height="48" rx="14" fill="#2b2110" stroke="#f59e0b"/>
+    <text x="44" y="51" text-anchor="middle" class="mono" font-size="15" fill="#f59e0b">03</text>
+    <text x="22" y="96" class="mono" font-size="13" fill="#f59e0b">AI SYSTEMS</text>
+    <text x="22" y="132" class="h" font-size="25">RAG + LLMs</text>
+    <text x="22" y="165" class="m" font-size="15">LangChain, Pinecone</text>
+    <text x="22" y="190" class="m" font-size="15">Embeddings, vector search</text>
   </g>
-  <g transform="translate(879 145)" filter="url(#s)" class="card" style="animation-delay:1.5s">
-    <path d="M0 34 L48 0 H212 L260 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
-    <path d="M0 34 L48 0 H212 L260 34 H0 Z" fill="#321527" stroke="#e11d48"/>
-    <text x="24" y="68" class="mono" font-size="14" fill="#fb7185">NOW</text>
-    <text x="24" y="108" class="h" font-size="27">MarketPivot</text>
-    <text x="24" y="143" class="m" font-size="16">Fintech analytics</text>
-    <text x="24" y="173" class="m" font-size="16">17-language product</text>
+  <g transform="translate(885 160)" filter="url(#s)" class="card" style="animation-delay:1.35s">
+    <rect width="255" height="205" rx="22" fill="#07111f" stroke="#1e3a5f"/>
+    <rect x="20" y="20" width="48" height="48" rx="14" fill="#321527" stroke="#e11d48"/>
+    <text x="44" y="51" text-anchor="middle" class="mono" font-size="15" fill="#fb7185">NOW</text>
+    <text x="22" y="96" class="mono" font-size="13" fill="#fb7185">CURRENT WORK</text>
+    <text x="22" y="132" class="h" font-size="25">MarketPivot</text>
+    <text x="22" y="165" class="m" font-size="15">Fintech analytics</text>
+    <text x="22" y="190" class="m" font-size="15">17-language product</text>
   </g>
 </svg>
