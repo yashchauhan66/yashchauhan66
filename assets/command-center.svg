@@ -1,81 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Yash Chauhan Command Center">
-
-<defs>
-  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#050816"/>
-    <stop offset="38%" stop-color="#111827"/>
-    <stop offset="65%" stop-color="#1E1B4B"/>
-    <stop offset="100%" stop-color="#070A13"/>
-  </linearGradient>
-  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#22D3EE"/>
-    <stop offset="35%" stop-color="#8B5CF6"/>
-    <stop offset="70%" stop-color="#A855F7"/>
-    <stop offset="100%" stop-color="#F472B6"/>
-  </linearGradient>
-  <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
-  </filter>
-  <style>
-    .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;letter-spacing:-1px;fill:#F8FAFC}
-    .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:650;fill:#CBD5E1}
-    .muted{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:500;fill:#94A3B8}
-    .chip{font-family:JetBrains Mono,Consolas,monospace;font-weight:700;fill:#E2E8F0}
-    .mono{font-family:JetBrains Mono,Consolas,monospace;fill:#CBD5E1}
-    .tiny{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;fill:#94A3B8}
-    .dash{stroke:url(#brand);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 12;animation:dash 8s linear infinite}
-    @keyframes dash{to{stroke-dashoffset:-220}}
-  </style>
-</defs>
-
-<rect width="1200" height="430" rx="32" fill="#070A13"/>
-<circle cx="1020" cy="50" r="260" fill="url(#orb1)"/>
-<circle cx="200" cy="370" r="230" fill="url(#orb2)"/>
-<text x="60" y="70" class="title" font-size="34">Engineer Command Center</text>
-<text x="60" y="103" class="muted" font-size="18">A quick signal of what I build, where I operate, and what I am optimizing for.</text>
-<g transform="translate(60 140)" filter="url(#soft)">
-  <rect width="260" height="210" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <text x="24" y="42" class="chip" font-size="15" fill="#22D3EE">01 · Product Engineering</text>
-  <text x="24" y="83" class="title" font-size="26">Full Stack</text>
-  <text x="24" y="120" class="muted" font-size="16">React · Node · APIs</text>
-  <text x="24" y="150" class="muted" font-size="16">Auth · Dashboards · SaaS</text>
-  <text x="24" y="180" class="muted" font-size="16">Clean UX + stable backend</text>
-</g>
-<g transform="translate(350 140)" filter="url(#soft)">
-  <rect width="260" height="210" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <text x="24" y="42" class="chip" font-size="15" fill="#A855F7">02 · Infrastructure</text>
-  <text x="24" y="83" class="title" font-size="26">Cloud Ready</text>
-  <text x="24" y="120" class="muted" font-size="16">Docker · Kubernetes</text>
-  <text x="24" y="150" class="muted" font-size="16">AWS EC2/S3 · CI/CD</text>
-  <text x="24" y="180" class="muted" font-size="16">GitOps mindset</text>
-</g>
-<g transform="translate(640 140)" filter="url(#soft)">
-  <rect width="260" height="210" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <text x="24" y="42" class="chip" font-size="15" fill="#F472B6">03 · AI Systems</text>
-  <text x="24" y="83" class="title" font-size="26">RAG + LLMs</text>
-  <text x="24" y="120" class="muted" font-size="16">LangChain · Pinecone</text>
-  <text x="24" y="150" class="muted" font-size="16">Vector search · agents</text>
-  <text x="24" y="180" class="muted" font-size="16">Grounded AI products</text>
-</g>
-<g transform="translate(930 140)" filter="url(#soft)">
-  <rect width="210" height="210" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <text x="24" y="42" class="chip" font-size="15" fill="#34D399">NOW</text>
-  <text x="24" y="83" class="title" font-size="26">MarketPivot</text>
-  <text x="24" y="120" class="muted" font-size="16">Fintech analytics</text>
-  <text x="24" y="150" class="muted" font-size="16">17-language i18n</text>
-  <text x="24" y="180" class="muted" font-size="16">Production SaaS</text>
-</g>
-<path d="M320 245 H350 M610 245 H640 M900 245 H930" class="dash" opacity="0.9"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Yash Chauhan engineer command center">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03121f"/><stop offset=".6" stop-color="#081827"/><stop offset="1" stop-color="#151225"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset=".5" stop-color="#10b981"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#000" flood-opacity=".4"/></filter>
+    <style>
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;fill:#f8fafc}.m{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:550;fill:#94a3b8}.b{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:750;fill:#dbeafe}.mono{font-family:JetBrains Mono,Consolas,monospace;font-weight:700;fill:#e5e7eb}.dash{stroke:url(#edge);stroke-width:3;stroke-dasharray:8 12;animation:dash 7s linear infinite}.card{animation:lift 6s ease-in-out infinite}@keyframes dash{to{stroke-dashoffset:-180}}@keyframes lift{50%{transform:translateY(-8px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
+  <circle cx="1030" cy="35" r="260" fill="#38bdf8" opacity=".08"/>
+  <circle cx="190" cy="410" r="260" fill="#10b981" opacity=".08"/>
+  <text x="60" y="68" class="h" font-size="34">Engineer Command Center</text>
+  <text x="60" y="102" class="m" font-size="18">Where product thinking, backend depth, cloud delivery, and AI systems meet.</text>
+  <path d="M190 260 H1010" class="dash" opacity=".72"/>
+  <g transform="translate(60 145)" filter="url(#s)" class="card">
+    <path d="M0 34 L58 0 H260 L318 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
+    <path d="M0 34 L58 0 H260 L318 34 H0 Z" fill="#0d2942" stroke="#38bdf8"/>
+    <text x="26" y="68" class="mono" font-size="14" fill="#38bdf8">01 / PRODUCT</text>
+    <text x="26" y="108" class="h" font-size="27">Full Stack</text>
+    <text x="26" y="143" class="m" font-size="16">React, Node, APIs</text>
+    <text x="26" y="173" class="m" font-size="16">Auth, dashboards, SaaS</text>
+  </g>
+  <g transform="translate(333 145)" filter="url(#s)" class="card" style="animation-delay:.5s">
+    <path d="M0 34 L58 0 H260 L318 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
+    <path d="M0 34 L58 0 H260 L318 34 H0 Z" fill="#0b2a31" stroke="#10b981"/>
+    <text x="26" y="68" class="mono" font-size="14" fill="#10b981">02 / CLOUD</text>
+    <text x="26" y="108" class="h" font-size="27">Deploy Ready</text>
+    <text x="26" y="143" class="m" font-size="16">Docker, Kubernetes</text>
+    <text x="26" y="173" class="m" font-size="16">AWS, CI/CD, GitOps</text>
+  </g>
+  <g transform="translate(606 145)" filter="url(#s)" class="card" style="animation-delay:1s">
+    <path d="M0 34 L58 0 H260 L318 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
+    <path d="M0 34 L58 0 H260 L318 34 H0 Z" fill="#2b2110" stroke="#f59e0b"/>
+    <text x="26" y="68" class="mono" font-size="14" fill="#f59e0b">03 / AI</text>
+    <text x="26" y="108" class="h" font-size="27">RAG Systems</text>
+    <text x="26" y="143" class="m" font-size="16">LangChain, Pinecone</text>
+    <text x="26" y="173" class="m" font-size="16">Embeddings, LLM APIs</text>
+  </g>
+  <g transform="translate(879 145)" filter="url(#s)" class="card" style="animation-delay:1.5s">
+    <path d="M0 34 L48 0 H212 L260 34 V210 H0 Z" fill="#071527" stroke="#1e3a5f"/>
+    <path d="M0 34 L48 0 H212 L260 34 H0 Z" fill="#321527" stroke="#e11d48"/>
+    <text x="24" y="68" class="mono" font-size="14" fill="#fb7185">NOW</text>
+    <text x="24" y="108" class="h" font-size="27">MarketPivot</text>
+    <text x="24" y="143" class="m" font-size="16">Fintech analytics</text>
+    <text x="24" y="173" class="m" font-size="16">17-language product</text>
+  </g>
 </svg>

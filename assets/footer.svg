@@ -1,50 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Yash Chauhan Footer">
-
-<defs>
-  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#050816"/>
-    <stop offset="38%" stop-color="#111827"/>
-    <stop offset="65%" stop-color="#1E1B4B"/>
-    <stop offset="100%" stop-color="#070A13"/>
-  </linearGradient>
-  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#22D3EE"/>
-    <stop offset="35%" stop-color="#8B5CF6"/>
-    <stop offset="70%" stop-color="#A855F7"/>
-    <stop offset="100%" stop-color="#F472B6"/>
-  </linearGradient>
-  <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
-  </filter>
-  <style>
-    .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;letter-spacing:-1px;fill:#F8FAFC}
-    .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:650;fill:#CBD5E1}
-    .muted{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:500;fill:#94A3B8}
-    .chip{font-family:JetBrains Mono,Consolas,monospace;font-weight:700;fill:#E2E8F0}
-    .mono{font-family:JetBrains Mono,Consolas,monospace;fill:#CBD5E1}
-    .tiny{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;fill:#94A3B8}
-    .dash{stroke:url(#brand);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 12;animation:dash 8s linear infinite}
-    @keyframes dash{to{stroke-dashoffset:-220}}
-  </style>
-</defs>
-
-<rect width="1200" height="260" rx="32" fill="url(#bgGrad)"/>
-<circle cx="180" cy="80" r="190" fill="url(#orb2)"/>
-<circle cx="1010" cy="220" r="230" fill="url(#orb1)"/>
-<text x="600" y="88" class="title" font-size="38" text-anchor="middle">Let's build something production-worthy.</text>
-<text x="600" y="126" class="muted" font-size="18" text-anchor="middle">Open to full stack, backend, fintech, AI product, remote, and contract opportunities.</text>
-<rect x="400" y="158" width="400" height="52" rx="26" fill="url(#brand)" opacity="0.95"/>
-<text x="600" y="192" class="chip" font-size="16" text-anchor="middle">Portfolio · LinkedIn · GitHub · Email</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Yash Chauhan profile footer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03121f"/><stop offset=".55" stop-color="#081827"/><stop offset="1" stop-color="#151225"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset=".38" stop-color="#10b981"/><stop offset=".72" stop-color="#f59e0b"/><stop offset="1" stop-color="#e11d48"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;fill:#f8fafc}.m{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:550;fill:#94a3b8}.mono{font-family:JetBrains Mono,Consolas,monospace;font-weight:800;fill:#e5e7eb}.dash{stroke:url(#g);stroke-width:3;stroke-linecap:round;stroke-dasharray:9 12;animation:dash 7s linear infinite}@keyframes dash{to{stroke-dashoffset:-180}}
+    </style>
+  </defs>
+  <rect width="1200" height="260" rx="30" fill="url(#bg)"/>
+  <circle cx="175" cy="80" r="190" fill="#38bdf8" opacity=".08"/>
+  <circle cx="1010" cy="220" r="230" fill="#e11d48" opacity=".07"/>
+  <path d="M160 182 C345 120 485 230 600 170 S860 110 1040 178" class="dash" fill="none" opacity=".75"/>
+  <g filter="url(#glow)">
+    <circle cx="160" cy="182" r="5" fill="#38bdf8"/><circle cx="600" cy="170" r="5" fill="#10b981"/><circle cx="1040" cy="178" r="5" fill="#f59e0b"/>
+  </g>
+  <text x="600" y="88" text-anchor="middle" class="h" font-size="38">Let's build something production-worthy.</text>
+  <text x="600" y="126" text-anchor="middle" class="m" font-size="18">Open to full stack, backend, fintech, AI product, remote, and contract opportunities.</text>
+  <rect x="394" y="158" width="412" height="52" rx="26" fill="#071527" stroke="url(#g)" stroke-width="2"/>
+  <text x="600" y="191" text-anchor="middle" class="mono" font-size="16">Portfolio | LinkedIn | GitHub | Email</text>
 </svg>

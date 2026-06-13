@@ -1,90 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-label="Yash Chauhan Project Constellation">
-
-<defs>
-  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#050816"/>
-    <stop offset="38%" stop-color="#111827"/>
-    <stop offset="65%" stop-color="#1E1B4B"/>
-    <stop offset="100%" stop-color="#070A13"/>
-  </linearGradient>
-  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#22D3EE"/>
-    <stop offset="35%" stop-color="#8B5CF6"/>
-    <stop offset="70%" stop-color="#A855F7"/>
-    <stop offset="100%" stop-color="#F472B6"/>
-  </linearGradient>
-  <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
-  </filter>
-  <style>
-    .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;letter-spacing:-1px;fill:#F8FAFC}
-    .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:650;fill:#CBD5E1}
-    .muted{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:500;fill:#94A3B8}
-    .chip{font-family:JetBrains Mono,Consolas,monospace;font-weight:700;fill:#E2E8F0}
-    .mono{font-family:JetBrains Mono,Consolas,monospace;fill:#CBD5E1}
-    .tiny{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;fill:#94A3B8}
-    .dash{stroke:url(#brand);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 12;animation:dash 8s linear infinite}
-    @keyframes dash{to{stroke-dashoffset:-220}}
-  </style>
-</defs>
-
-<rect width="1200" height="650" rx="32" fill="#070A13"/>
-<circle cx="600" cy="325" r="280" fill="none" stroke="#312E81" stroke-width="1" stroke-dasharray="8 12" opacity="0.75"/>
-<circle cx="600" cy="325" r="190" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="6 10"/>
-<text x="60" y="72" class="title" font-size="36">Project Constellation</text>
-<text x="60" y="106" class="muted" font-size="18">Four proof-of-work zones that connect product, backend, cloud, and AI engineering.</text>
-<g transform="translate(472 248)" filter="url(#glow)">
-  <circle cx="128" cy="78" r="76" fill="#111827" stroke="url(#brand)" stroke-width="4"/>
-  <text x="128" y="72" class="title" font-size="24" text-anchor="middle">Yash</text>
-  <text x="128" y="100" class="muted" font-size="15" text-anchor="middle">Full Stack Engineer</text>
-</g>
-<g transform="translate(60 160)" filter="url(#soft)">
-  <rect width="380" height="150" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <rect x="22" y="22" width="46" height="46" rx="14" fill="url(#brand)" opacity="0.9"/>
-  <text x="45" y="53" class="title" font-size="18" text-anchor="middle">◆</text>
-  <text x="86" y="45" class="title" font-size="22">MarketPivot</text>
-  <text x="86" y="73" class="muted" font-size="15">Fintech analytics SaaS</text>
-  <text x="24" y="111" class="chip" font-size="13" fill="#C084FC">React · TypeScript · Node · PostgreSQL</text>
-  <text x="24" y="134" class="muted" font-size="14">17-language i18n · dashboards · pricing modules</text>
-</g>
-<g transform="translate(760 160)" filter="url(#soft)">
-  <rect width="380" height="150" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <rect x="22" y="22" width="46" height="46" rx="14" fill="url(#brand)" opacity="0.9"/>
-  <text x="45" y="53" class="title" font-size="18" text-anchor="middle">◆</text>
-  <text x="86" y="45" class="title" font-size="22">Watch Wave</text>
-  <text x="86" y="73" class="muted" font-size="15">OTT streaming platform</text>
-  <text x="24" y="111" class="chip" font-size="13" fill="#C084FC">React · Node · Docker · AWS S3</text>
-  <text x="24" y="134" class="muted" font-size="14">Auth · upload · stream · CI/CD</text>
-</g>
-<g transform="translate(60 430)" filter="url(#soft)">
-  <rect width="380" height="150" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <rect x="22" y="22" width="46" height="46" rx="14" fill="url(#brand)" opacity="0.9"/>
-  <text x="45" y="53" class="title" font-size="18" text-anchor="middle">◆</text>
-  <text x="86" y="45" class="title" font-size="22">RAG AI Agent</text>
-  <text x="86" y="73" class="muted" font-size="15">Context-aware AI assistant</text>
-  <text x="24" y="111" class="chip" font-size="13" fill="#C084FC">LangChain · Pinecone · LLM APIs</text>
-  <text x="24" y="134" class="muted" font-size="14">Embeddings · vector search · grounded responses</text>
-</g>
-<g transform="translate(760 430)" filter="url(#soft)">
-  <rect width="380" height="150" rx="24" fill="#0F172A" stroke="#1E293B"/>
-  <rect x="22" y="22" width="46" height="46" rx="14" fill="url(#brand)" opacity="0.9"/>
-  <text x="45" y="53" class="title" font-size="18" text-anchor="middle">◆</text>
-  <text x="86" y="45" class="title" font-size="22">AI Task Platform</text>
-  <text x="86" y="73" class="muted" font-size="15">DevOps-native task manager</text>
-  <text x="24" y="111" class="chip" font-size="13" fill="#C084FC">MERN · Kubernetes · ArgoCD · AWS</text>
-  <text x="24" y="134" class="muted" font-size="14">GitOps pipeline · container orchestration</text>
-</g>
-<path d="M440 235 C500 230 525 250 548 285 M760 235 C700 230 675 250 652 285 M440 505 C500 515 535 440 558 370 M760 505 C700 515 665 440 642 370" class="dash" opacity="0.75"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-label="Yash Chauhan project constellation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03121f"/><stop offset=".55" stop-color="#081827"/><stop offset="1" stop-color="#151225"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset=".45" stop-color="#10b981"/><stop offset=".75" stop-color="#f59e0b"/><stop offset="1" stop-color="#e11d48"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#000" flood-opacity=".4"/></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;fill:#f8fafc}.m{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:550;fill:#94a3b8}.t{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:760;fill:#e5e7eb}.mono{font-family:JetBrains Mono,Consolas,monospace;font-weight:800;fill:#e5e7eb}.orbit{transform-origin:600px 325px;animation:spin 26s linear infinite}.dash{stroke:url(#g);stroke-width:3;stroke-dasharray:9 12;animation:dash 7s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-180}}
+    </style>
+  </defs>
+  <rect width="1200" height="650" rx="30" fill="url(#bg)"/>
+  <text x="60" y="72" class="h" font-size="36">Project Constellation</text>
+  <text x="60" y="108" class="m" font-size="18">Proof-of-work zones connected by product, backend, cloud, and AI execution.</text>
+  <g class="orbit" opacity=".65">
+    <circle cx="600" cy="325" r="252" fill="none" stroke="#1e3a5f" stroke-dasharray="7 13"/>
+    <circle cx="600" cy="325" r="165" fill="none" stroke="#14314b" stroke-dasharray="5 11"/>
+    <circle cx="600" cy="73" r="5" fill="#38bdf8"/>
+    <circle cx="852" cy="325" r="5" fill="#10b981"/>
+    <circle cx="600" cy="577" r="5" fill="#f59e0b"/>
+    <circle cx="348" cy="325" r="5" fill="#e11d48"/>
+  </g>
+  <path d="M436 238 C505 225 533 260 560 295 M764 238 C695 225 667 260 640 295 M436 508 C510 520 535 410 566 358 M764 508 C690 520 665 410 634 358" class="dash" opacity=".75"/>
+  <g transform="translate(472 246)" filter="url(#glow)">
+    <path d="M128 0 L248 70 L128 140 L8 70 Z" fill="#0b2138" stroke="url(#g)" stroke-width="3"/>
+    <path d="M8 70 L128 140 L128 178 L8 107 Z" fill="#071527" stroke="#1e3a5f"/>
+    <path d="M248 70 L128 140 L128 178 L248 107 Z" fill="#0a1c2f" stroke="#1e3a5f"/>
+    <text x="128" y="72" text-anchor="middle" class="h" font-size="25">Yash</text>
+    <text x="128" y="101" text-anchor="middle" class="m" font-size="14">Full Stack Engineer</text>
+  </g>
+  <g transform="translate(60 162)" filter="url(#s)">
+    <rect width="380" height="150" rx="22" fill="#071527" stroke="#1e3a5f"/>
+    <rect x="24" y="24" width="50" height="50" rx="12" fill="#0d2942" stroke="#38bdf8"/><text x="49" y="57" text-anchor="middle" class="h" font-size="20">01</text>
+    <text x="92" y="47" class="h" font-size="22">MarketPivot</text><text x="92" y="75" class="m" font-size="15">Fintech analytics SaaS</text>
+    <text x="24" y="114" class="mono" font-size="13" fill="#38bdf8">React | TypeScript | Node | PostgreSQL</text><text x="24" y="136" class="m" font-size="14">17-language i18n, dashboards, pricing modules</text>
+  </g>
+  <g transform="translate(760 162)" filter="url(#s)">
+    <rect width="380" height="150" rx="22" fill="#071527" stroke="#1e3a5f"/>
+    <rect x="24" y="24" width="50" height="50" rx="12" fill="#0b2a31" stroke="#10b981"/><text x="49" y="57" text-anchor="middle" class="h" font-size="20">02</text>
+    <text x="92" y="47" class="h" font-size="22">Watch Wave</text><text x="92" y="75" class="m" font-size="15">OTT streaming platform</text>
+    <text x="24" y="114" class="mono" font-size="13" fill="#10b981">React | Node | Docker | AWS S3</text><text x="24" y="136" class="m" font-size="14">Auth, upload, streaming, cloud storage</text>
+  </g>
+  <g transform="translate(60 432)" filter="url(#s)">
+    <rect width="380" height="150" rx="22" fill="#071527" stroke="#1e3a5f"/>
+    <rect x="24" y="24" width="50" height="50" rx="12" fill="#2b2110" stroke="#f59e0b"/><text x="49" y="57" text-anchor="middle" class="h" font-size="20">03</text>
+    <text x="92" y="47" class="h" font-size="22">RAG AI Agent</text><text x="92" y="75" class="m" font-size="15">Context-aware assistant</text>
+    <text x="24" y="114" class="mono" font-size="13" fill="#f59e0b">LangChain | Pinecone | LLM APIs</text><text x="24" y="136" class="m" font-size="14">Embeddings, retrieval, grounded responses</text>
+  </g>
+  <g transform="translate(760 432)" filter="url(#s)">
+    <rect width="380" height="150" rx="22" fill="#071527" stroke="#1e3a5f"/>
+    <rect x="24" y="24" width="50" height="50" rx="12" fill="#321527" stroke="#e11d48"/><text x="49" y="57" text-anchor="middle" class="h" font-size="20">04</text>
+    <text x="92" y="47" class="h" font-size="22">AI Task Platform</text><text x="92" y="75" class="m" font-size="15">DevOps-native MERN app</text>
+    <text x="24" y="114" class="mono" font-size="13" fill="#fb7185">MERN | Kubernetes | ArgoCD | AWS</text><text x="24" y="136" class="m" font-size="14">GitOps pipeline and container orchestration</text>
+  </g>
 </svg>

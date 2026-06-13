@@ -1,35 +1,31 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Yash Chauhan — Full Stack Developer" width="100%" />
+  <img src="./assets/hero.svg" alt="Yash Chauhan - Full Stack Developer, AI and Cloud Engineer" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://yashchauhanportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-Visit_Now-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/yashchauhan66"><img src="https://img.shields.io/badge/LinkedIn-Connect-6366F1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:yashchauhan6660@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-A855F7?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/yashchauhan66"><img src="https://img.shields.io/badge/GitHub-yashchauhan66-111827?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://yashchauhanportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-Launch-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/yashchauhan66"><img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:yashchauhan6660@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E11D48?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/yashchauhan66"><img src="https://img.shields.io/badge/GitHub-yashchauhan66-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yashchauhan66&style=flat-square&color=8B5CF6&label=PROFILE+VIEWS" />
-  <img src="https://img.shields.io/github/followers/yashchauhan66?style=flat-square&color=6366F1&label=FOLLOWERS&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/github/stars/yashchauhan66?style=flat-square&color=A855F7&label=STARS&logo=github&logoColor=white" />
+  <img src="https://komarev.com/ghpvc/?username=yashchauhan66&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/yashchauhan66?style=flat-square&color=10B981&label=FOLLOWERS&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/yashchauhan66?style=flat-square&color=F59E0B&label=STARS&logo=github&logoColor=white" alt="Stars" />
 </p>
 
----
+## Building Product-Grade Software
 
-## About
+I am **Yash Chauhan**, a **Full Stack Developer** building modern web platforms with strong frontend systems, scalable APIs, cloud-ready deployment, and AI workflows that feel useful in production.
 
-I am **Yash Chauhan**, a **Full Stack Developer** focused on building real products with clean frontend systems, scalable backend APIs, cloud-ready deployments, and AI-powered workflows.
-
-I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, PostgreSQL, Docker, Kubernetes, AWS, LangChain, Pinecone, and LLM APIs**. My current work is centered around **MarketPivot**, a financial analytics platform with dashboards, pricing modules, backend APIs, and multilingual product experience.
+My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, PostgreSQL, Docker, Kubernetes, AWS, LangChain, Pinecone, and LLM APIs**. I am currently working on **MarketPivot**, a financial analytics platform with dashboards, pricing modules, backend APIs, SEO improvements, and multilingual product experience across 17 languages.
 
 <p align="center">
-  <img src="./assets/command-center.svg" alt="Engineer Command Center" width="100%" />
+  <img src="./assets/command-center.svg" alt="Engineer command center" width="100%" />
 </p>
 
----
-
-## What I Bring
+## Operating System
 
 <table>
 <tr>
@@ -37,20 +33,20 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 
 ### Product Engineering
 
-- Responsive dashboards and SaaS-style interfaces
-- Authentication, API integrations, and role-based flows
-- Clean UX with performance-focused frontend architecture
-- Production features shipped with Git workflows and reviews
+- SaaS dashboards, admin panels, and responsive product flows
+- Authentication, roles, API integration, and protected routes
+- Frontend systems built for clarity, speed, and maintainability
+- Feature delivery through Git workflows, reviews, and release discipline
 
 </td>
 <td width="50%" valign="top">
 
 ### Backend + Cloud
 
-- REST APIs with Node.js, Express.js, MongoDB, PostgreSQL
-- Dockerized services and Kubernetes-oriented deployments
-- CI/CD with GitHub Actions and cloud deployment mindset
-- Caching, optimization, monitoring, and reliability improvements
+- REST APIs with Node.js, Express.js, MongoDB, and PostgreSQL
+- Dockerized services with Kubernetes-oriented deployment thinking
+- CI/CD, GitHub Actions, AWS EC2/S3, and practical DevOps workflows
+- Caching, validation, reliability, and performance improvement
 
 </td>
 </tr>
@@ -59,44 +55,40 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 
 ### AI Engineering
 
-- RAG pipelines using LangChain, Pinecone, and LLM APIs
-- Vector search, embeddings, document chunking, and context injection
-- AI workflow automation with N8N-style multi-step pipelines
-- AI features integrated into full-stack applications
+- RAG pipelines with LangChain, Pinecone, embeddings, and LLM APIs
+- Document ingestion, chunking, vector search, and context injection
+- AI automation workflows inspired by multi-step agent systems
+- AI features integrated into full-stack products, not isolated demos
 
 </td>
 <td width="50%" valign="top">
 
 ### Current Direction
 
-- Advanced TypeScript and system design
-- Kubernetes, cloud infrastructure, and production hardening
-- Fintech dashboards, market intelligence, and data-heavy apps
+- Advanced TypeScript, system design, and production architecture
+- Cloud infrastructure, Kubernetes, observability, and GitOps
+- Fintech dashboards, market intelligence, and data-heavy interfaces
 - AI-native product engineering and developer tooling
 
 </td>
 </tr>
 </table>
 
----
-
 ## Technical Arsenal
 
 <p align="center">
-  <img src="./assets/skill-matrix.svg" alt="Technical Arsenal" width="100%" />
+  <img src="./assets/skill-matrix.svg" alt="Technical arsenal" width="100%" />
 </p>
-
----
 
 ## Featured Work
 
 <p align="center">
-  <img src="./assets/project-constellation.svg" alt="Project Constellation" width="100%" />
+  <img src="./assets/project-constellation.svg" alt="Project constellation" width="100%" />
 </p>
 
-### MarketPivot — Financial Analytics Platform
+### MarketPivot - Financial Analytics Platform
 
-**Role:** Full Stack Developer · Contract  
+**Role:** Full Stack Developer, Contract  
 **Focus:** React, TypeScript, Node.js, PostgreSQL, i18n, dashboards, pricing modules
 
 - Building fintech dashboard features and production UI modules
@@ -104,7 +96,7 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 - Developing and maintaining scalable REST APIs
 - Improving SEO, responsiveness, and production stability
 
-### Watch Wave — OTT Streaming Platform
+### Watch Wave - OTT Streaming Platform
 
 **Focus:** React, TypeScript, Node.js, Express.js, MongoDB, Docker, AWS EC2/S3
 
@@ -113,7 +105,7 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 - Dockerized deployment workflow with cloud storage integration
 - Built as a real full-stack streaming product, not just a UI clone
 
-### RAG AI Agent — Retrieval-Augmented Generation System
+### RAG AI Agent - Retrieval-Augmented Generation System
 
 **Focus:** LangChain, Pinecone, LLM APIs, React, Node.js
 
@@ -122,7 +114,7 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 - Clean chat-style frontend for AI interaction
 - Production-style architecture with API key safety and backend orchestration
 
-### AI Task Platform — DevOps-Native MERN App
+### AI Task Platform - DevOps-Native MERN App
 
 **Focus:** MERN, Docker, Kubernetes, ArgoCD, AWS EC2
 
@@ -131,15 +123,11 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 - CI/CD-oriented workflow from commit to deployment
 - Practical demonstration of cloud-native MERN deployment
 
----
-
 ## Delivery Style
 
 <p align="center">
-  <img src="./assets/pipeline.svg" alt="Delivery Pipeline" width="100%" />
+  <img src="./assets/pipeline.svg" alt="Delivery pipeline" width="100%" />
 </p>
-
----
 
 ## Experience
 
@@ -147,13 +135,13 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 <tr>
 <td width="65%" valign="top">
 
-### Full Stack Developer · Contract
+### Full Stack Developer, Contract
 
-**MarketPivot** · May 2026 – Present
+**MarketPivot** | May 2026 - Present
 
-- Develop platform features including financial dashboards, pricing modules, and multilingual functionality
+- Develop financial dashboards, pricing modules, and multilingual product features
 - Build REST APIs with Node.js, Express.js, PostgreSQL, and production-oriented architecture
-- Collaborate through Git workflows, feature branches, pull requests, and code reviews
+- Collaborate through branches, pull requests, code reviews, and release workflows
 - Improve SEO, responsiveness, performance, and product stability
 
 </td>
@@ -173,9 +161,9 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 <tr>
 <td width="65%" valign="top">
 
-### Full Stack Developer · Intern
+### Full Stack Developer, Intern
 
-**Spring Capital** · Oct 2025 – Dec 2025
+**Spring Capital** | Oct 2025 - Dec 2025
 
 - Developed backend APIs using Node.js, Express.js, and MongoDB
 - Implemented secure JWT-based authentication and authorization
@@ -196,8 +184,6 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 </td>
 </tr>
 </table>
-
----
 
 ## Proof Signals
 
@@ -232,33 +218,29 @@ I work mainly with **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB
 </tr>
 </table>
 
----
-
 ## GitHub Analytics
 
 <p align="center">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=yashchauhan66&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=070A13&title_color=A855F7&icon_color=8B5CF6&text_color=E2E8F0&ring_color=A855F7" />
-  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashchauhan66&layout=compact&hide_border=true&bg_color=070A13&title_color=A855F7&text_color=E2E8F0&langs_count=8" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api?username=yashchauhan66&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=06111F&title_color=38BDF8&icon_color=10B981&text_color=E5E7EB&ring_color=F59E0B" alt="Yash Chauhan GitHub stats" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashchauhan66&layout=compact&hide_border=true&bg_color=06111F&title_color=38BDF8&text_color=E5E7EB&langs_count=8" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=yashchauhan66&theme=midnight-purple&hide_border=true&background=070A13&ring=A855F7&fire=C084FC&currStreakLabel=A855F7&sideLabels=E2E8F0&dates=94A3B8&currStreakNum=E2E8F0&sideNums=E2E8F0" />
+  <img src="https://streak-stats.demolab.com?user=yashchauhan66&hide_border=true&background=06111F&ring=38BDF8&fire=F59E0B&currStreakLabel=10B981&sideLabels=E5E7EB&dates=94A3B8&currStreakNum=E5E7EB&sideNums=E5E7EB" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashchauhan66&bg_color=070A13&color=A855F7&line=8B5CF6&point=C084FC&area=true&hide_border=true&area_color=312E81&custom_title=Yash%20Chauhan%20Contribution%20Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashchauhan66&bg_color=06111F&color=E5E7EB&line=38BDF8&point=F59E0B&area=true&hide_border=true&area_color=0EA5E9&custom_title=Yash%20Chauhan%20Contribution%20Graph" width="100%" alt="GitHub activity graph" />
 </p>
-
----
 
 ## Connect
 
 <p align="center">
-  <a href="mailto:yashchauhan6660@gmail.com"><img src="https://img.shields.io/badge/Email-Send_Message-A855F7?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/yashchauhan66"><img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-6366F1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://yashchauhanportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-View_Work-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:yashchauhan6660@gmail.com"><img src="https://img.shields.io/badge/Email-Send_Message-E11D48?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/yashchauhan66"><img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://yashchauhanportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-View_Work-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Let's build something production-worthy" width="100%" />
+  <img src="./assets/footer.svg" alt="Let's build something production worthy" width="100%" />
 </p>
