@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Yash Chauhan Skill Matrix">
+
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050816"/>
+    <stop offset="38%" stop-color="#111827"/>
+    <stop offset="65%" stop-color="#1E1B4B"/>
+    <stop offset="100%" stop-color="#070A13"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="35%" stop-color="#8B5CF6"/>
+    <stop offset="70%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#F472B6"/>
+  </linearGradient>
+  <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+  <style>
+    .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;letter-spacing:-1px;fill:#F8FAFC}
+    .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:650;fill:#CBD5E1}
+    .muted{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:500;fill:#94A3B8}
+    .chip{font-family:JetBrains Mono,Consolas,monospace;font-weight:700;fill:#E2E8F0}
+    .mono{font-family:JetBrains Mono,Consolas,monospace;fill:#CBD5E1}
+    .tiny{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;fill:#94A3B8}
+    .dash{stroke:url(#brand);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 12;animation:dash 8s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-220}}
+  </style>
+</defs>
+
+<rect width="1200" height="620" rx="32" fill="#070A13"/>
+<circle cx="1030" cy="110" r="280" fill="url(#orb1)"/>
+<text x="60" y="72" class="title" font-size="36">Technical Arsenal</text>
+<text x="60" y="106" class="muted" font-size="18">A production-oriented stack for building, deploying, and scaling modern software.</text>
+<g transform="translate(60 150)" filter="url(#soft)">
+  <rect width="1080" height="76" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="26" y="47" class="chip" font-size="19" fill="#A855F7">Frontend</text>
+  <rect x="230" y="19" width="118" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="250" y="43" class="sub" font-size="15">React.js</text>
+  <rect x="364" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="384" y="43" class="sub" font-size="15">Next.js</text>
+  <rect x="490" y="19" width="138" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="510" y="43" class="sub" font-size="15">TypeScript</text>
+  <rect x="644" y="19" width="158" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="664" y="43" class="sub" font-size="15">Tailwind CSS</text>
+  <rect x="818" y="19" width="168" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="838" y="43" class="sub" font-size="15">Redux Toolkit</text>
+</g>
+<g transform="translate(60 238)" filter="url(#soft)">
+  <rect width="1080" height="76" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="26" y="47" class="chip" font-size="19" fill="#A855F7">Backend</text>
+  <rect x="230" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="250" y="43" class="sub" font-size="15">Node.js</text>
+  <rect x="356" y="19" width="138" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="376" y="43" class="sub" font-size="15">Express.js</text>
+  <rect x="510" y="19" width="128" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="530" y="43" class="sub" font-size="15">REST APIs</text>
+  <rect x="654" y="19" width="118" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="674" y="43" class="sub" font-size="15">JWT Auth</text>
+  <rect x="788" y="19" width="168" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="808" y="43" class="sub" font-size="15">Microservices</text>
+</g>
+<g transform="translate(60 326)" filter="url(#soft)">
+  <rect width="1080" height="76" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="26" y="47" class="chip" font-size="19" fill="#A855F7">Data Layer</text>
+  <rect x="230" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="250" y="43" class="sub" font-size="15">MongoDB</text>
+  <rect x="356" y="19" width="138" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="376" y="43" class="sub" font-size="15">PostgreSQL</text>
+  <rect x="510" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="530" y="43" class="sub" font-size="15">Redis</text>
+  <rect x="636" y="19" width="118" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="656" y="43" class="sub" font-size="15">Pinecone</text>
+  <rect x="770" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="790" y="43" class="sub" font-size="15">Knex.js</text>
+</g>
+<g transform="translate(60 414)" filter="url(#soft)">
+  <rect width="1080" height="76" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="26" y="47" class="chip" font-size="19" fill="#A855F7">Cloud / DevOps</text>
+  <rect x="230" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="250" y="43" class="sub" font-size="15">Docker</text>
+  <rect x="356" y="19" width="138" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="376" y="43" class="sub" font-size="15">Kubernetes</text>
+  <rect x="510" y="19" width="138" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="530" y="43" class="sub" font-size="15">AWS EC2/S3</text>
+  <rect x="664" y="19" width="178" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="684" y="43" class="sub" font-size="15">GitHub Actions</text>
+  <rect x="858" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="878" y="43" class="sub" font-size="15">ArgoCD</text>
+</g>
+<g transform="translate(60 502)" filter="url(#soft)">
+  <rect width="1080" height="76" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="26" y="47" class="chip" font-size="19" fill="#A855F7">AI Engineering</text>
+  <rect x="230" y="19" width="128" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="250" y="43" class="sub" font-size="15">LangChain</text>
+  <rect x="374" y="19" width="148" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="394" y="43" class="sub" font-size="15">RAG Systems</text>
+  <rect x="538" y="19" width="118" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="558" y="43" class="sub" font-size="15">LLM APIs</text>
+  <rect x="672" y="19" width="168" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="692" y="43" class="sub" font-size="15">Vector Search</text>
+  <rect x="856" y="19" width="110" height="38" rx="19" fill="#111827" stroke="#312E81"/>
+  <text x="876" y="43" class="sub" font-size="15">N8N</text>
+</g>
+</svg>
