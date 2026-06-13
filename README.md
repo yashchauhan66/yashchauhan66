@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Yash Chauhan - Full Stack Developer, AI and Cloud Engineer" width="100%" />
+  <img src="./assets/hero.svg" alt="Yash Chauhan - Full Stack Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -18,125 +18,125 @@
   <img src="https://img.shields.io/github/stars/yashchauhan66?style=flat&color=F59E0B&label=Stars&logo=github&logoColor=white" alt="Stars" />
 </p>
 
-## Building Product-Grade Software
+## About
 
-I am **Yash Chauhan**, a **Full Stack Developer** building modern web platforms with strong frontend systems, scalable APIs, cloud-ready deployment, and AI workflows that feel useful in production.
+I am **Yash Chauhan**, a **Full Stack Developer** focused on building reliable web applications, scalable backend APIs, and cloud-ready product systems. I work across frontend, backend, databases, DevOps workflows, and AI-powered features.
 
-My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, PostgreSQL, Docker, Kubernetes, AWS, LangChain, Pinecone, and LLM APIs**. I am currently working on **MarketPivot**, a financial analytics platform with dashboards, pricing modules, backend APIs, SEO improvements, and multilingual product experience across 17 languages.
+Currently, I am working on **MarketPivot**, a financial analytics platform with dashboards, pricing modules, backend APIs, SEO improvements, and multilingual product experience across 17 languages.
 
 <p align="center">
-  <img src="./assets/command-center.svg" alt="Engineer command center" width="100%" />
+  <img src="./assets/command-center.svg" alt="Engineering focus areas" width="100%" />
 </p>
 
-## Operating System
+## Core Strengths
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Product Engineering
+### Frontend Engineering
 
-- SaaS dashboards, admin panels, and responsive product flows
-- Authentication, roles, API integration, and protected routes
-- Frontend systems built for clarity, speed, and maintainability
-- Feature delivery through Git workflows, reviews, and release discipline
+- React.js, Next.js, TypeScript, Tailwind CSS
+- Responsive dashboards, SaaS interfaces, and admin panels
+- Clean component structure, reusable UI patterns, and performance-focused pages
+- Authentication flows, protected routes, forms, and API integration
 
 </td>
 <td width="50%" valign="top">
 
-### Backend + Cloud
+### Backend Engineering
 
-- REST APIs with Node.js, Express.js, MongoDB, and PostgreSQL
-- Dockerized services with Kubernetes-oriented deployment thinking
-- CI/CD, GitHub Actions, AWS EC2/S3, and practical DevOps workflows
-- Caching, validation, reliability, and performance improvement
+- Node.js, Express.js, REST APIs, JWT authentication
+- MongoDB, PostgreSQL, Redis, query optimization, and API performance
+- Role-based access, validation, error handling, and production API structure
+- Service-oriented modules for auth, users, upload, streaming, and business logic
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### AI Engineering
+### Cloud + DevOps
 
-- RAG pipelines with LangChain, Pinecone, embeddings, and LLM APIs
-- Document ingestion, chunking, vector search, and context injection
-- AI automation workflows inspired by multi-step agent systems
-- AI features integrated into full-stack products, not isolated demos
+- Docker, Kubernetes, GitHub Actions, AWS EC2/S3
+- CI/CD workflows, deployment structure, and cloud-ready project organization
+- Git workflows with feature branches, pull requests, and review discipline
+- Practical GitOps exposure with ArgoCD-oriented delivery
 
 </td>
 <td width="50%" valign="top">
 
-### Current Direction
+### AI Engineering
 
-- Advanced TypeScript, system design, and production architecture
-- Cloud infrastructure, Kubernetes, observability, and GitOps
-- Fintech dashboards, market intelligence, and data-heavy interfaces
-- AI-native product engineering and developer tooling
+- LangChain, Pinecone, embeddings, vector search, and LLM APIs
+- RAG pipelines with document ingestion, chunking, retrieval, and context injection
+- AI workflow automation and product-level AI feature integration
+- Backend orchestration with API key safety and grounded responses
 
 </td>
 </tr>
 </table>
 
-## Technical Arsenal
+## Tech Stack
 
 <p align="center">
-  <img src="./assets/skill-matrix.svg" alt="Technical arsenal" width="100%" />
+  <img src="./assets/skill-matrix.svg" alt="Technical stack" width="100%" />
 </p>
 
-## Featured Work
+## Selected Projects
 
 <p align="center">
-  <img src="./assets/project-constellation.svg" alt="Project constellation" width="100%" />
+  <img src="./assets/project-constellation.svg" alt="Selected projects" width="100%" />
 </p>
 
 ### MarketPivot - Financial Analytics Platform
 
 **Role:** Full Stack Developer, Contract  
-**Focus:** React, TypeScript, Node.js, PostgreSQL, i18n, dashboards, pricing modules
+**Stack:** React, TypeScript, Node.js, PostgreSQL, i18n
 
-- Building fintech dashboard features and production UI modules
+- Building production dashboard features and UI modules for a fintech product
+- Developing backend APIs and improving platform stability
 - Working on multilingual product experience across 17 languages
-- Developing and maintaining scalable REST APIs
-- Improving SEO, responsiveness, and production stability
+- Improving SEO, responsiveness, pricing modules, and product workflows
 
 ### Watch Wave - OTT Streaming Platform
 
-**Focus:** React, TypeScript, Node.js, Express.js, MongoDB, Docker, AWS EC2/S3
+**Stack:** React, TypeScript, Node.js, Express.js, MongoDB, Docker, AWS EC2/S3
 
-- Service-based architecture for auth, user, upload, and streaming modules
-- Secure authentication and protected media workflows
-- Dockerized deployment workflow with cloud storage integration
-- Built as a real full-stack streaming product, not just a UI clone
+- Built auth, user, upload, and streaming-oriented service modules
+- Implemented protected media workflows and cloud storage integration
+- Structured the project for Docker-based deployment
+- Created a full-stack streaming platform beyond a simple UI clone
 
 ### RAG AI Agent - Retrieval-Augmented Generation System
 
-**Focus:** LangChain, Pinecone, LLM APIs, React, Node.js
+**Stack:** LangChain, Pinecone, LLM APIs, React, Node.js
 
-- Document ingestion, chunking, embeddings, vector storage, and semantic retrieval
-- Context-injected LLM responses to reduce hallucination
-- Clean chat-style frontend for AI interaction
-- Production-style architecture with API key safety and backend orchestration
+- Built document ingestion, chunking, embeddings, vector storage, and retrieval
+- Added context-injected responses to reduce hallucination
+- Created a clean chat interface connected to backend orchestration
+- Designed the architecture with API key safety and production-style separation
 
 ### AI Task Platform - DevOps-Native MERN App
 
-**Focus:** MERN, Docker, Kubernetes, ArgoCD, AWS EC2
+**Stack:** MERN, Docker, Kubernetes, ArgoCD, AWS EC2
 
-- Containerized full-stack task platform
-- Kubernetes deployment structure and GitOps-based delivery
-- CI/CD-oriented workflow from commit to deployment
-- Practical demonstration of cloud-native MERN deployment
+- Containerized a full-stack task management platform
+- Created Kubernetes deployment structure and GitOps-style delivery flow
+- Built CI/CD-oriented project organization from code to deployment
+- Demonstrated cloud-native MERN deployment practices
 
-## Delivery Style
+## Delivery Process
 
 <p align="center">
-  <img src="./assets/pipeline.svg" alt="Delivery pipeline" width="100%" />
+  <img src="./assets/pipeline.svg" alt="Delivery process" width="100%" />
 </p>
 
 ## Experience
 
 <table>
 <tr>
-<td width="65%" valign="top">
+<td width="68%" valign="top">
 
 ### Full Stack Developer, Contract
 
@@ -145,12 +145,12 @@ My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, Mon
 - Develop financial dashboards, pricing modules, and multilingual product features
 - Build REST APIs with Node.js, Express.js, PostgreSQL, and production-oriented architecture
 - Collaborate through branches, pull requests, code reviews, and release workflows
-- Improve SEO, responsiveness, performance, and product stability
+- Improve SEO, responsiveness, performance, and platform stability
 
 </td>
-<td width="35%" valign="top">
+<td width="32%" valign="top">
 
-**Core Stack**
+**Stack**
 
 - React.js
 - TypeScript
@@ -162,7 +162,7 @@ My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, Mon
 </td>
 </tr>
 <tr>
-<td width="65%" valign="top">
+<td width="68%" valign="top">
 
 ### Full Stack Developer, Intern
 
@@ -173,9 +173,9 @@ My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, Mon
 - Improved API response time by 25% through query optimization and Redis caching
 
 </td>
-<td width="35%" valign="top">
+<td width="32%" valign="top">
 
-**Core Stack**
+**Stack**
 
 - Node.js
 - Express.js
@@ -197,10 +197,10 @@ My core stack includes **React.js, Next.js, TypeScript, Node.js, Express.js, Mon
 ### Achievements
 
 - Built and deployed multiple full-stack applications
-- Solved 178+ DSA problems across core patterns
+- Solved 178+ DSA problems across core programming patterns
 - Built a working RAG AI system with vector search
 - Worked on 17-language i18n for a production fintech platform
-- Improved API response time by 25% in internship work
+- Improved API response time by 25% during internship work
 
 </td>
 <td width="50%" valign="top">

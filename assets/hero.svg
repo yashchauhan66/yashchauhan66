@@ -1,98 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Yash Chauhan GitHub profile hero">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Yash Chauhan professional GitHub profile header">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#06111f"/>
-      <stop offset=".48" stop-color="#081827"/>
+      <stop offset=".55" stop-color="#081827"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset=".38" stop-color="#10b981"/>
+      <stop offset=".42" stop-color="#10b981"/>
       <stop offset=".72" stop-color="#f59e0b"/>
       <stop offset="1" stop-color="#e11d48"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b2033"/>
-      <stop offset="1" stop-color="#07111f"/>
-    </linearGradient>
-    <filter id="soft" x="-15%" y="-15%" width="130%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity=".38"/>
-    </filter>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000" flood-opacity=".34"/>
     </filter>
     <style>
       .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;fill:#f8fafc}
       .lead{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:650;fill:#dbeafe}
       .muted{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:540;fill:#94a3b8}
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800;fill:#e5e7eb}
       .mono{font-family:JetBrains Mono,Consolas,monospace;font-weight:800;fill:#e5e7eb}
-      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:720;fill:#cbd5e1}
-      .orbit{transform-origin:902px 251px;animation:spin 22s linear infinite}
-      .dash{stroke:url(#accent);stroke-width:3;stroke-dasharray:10 14;animation:dash 7s linear infinite}
-      .pulse{animation:pulse 2.8s ease-in-out infinite}
-      @keyframes spin{to{transform:rotate(360deg)}}
+      .dash{stroke:url(#accent);stroke-width:3;stroke-linecap:round;stroke-dasharray:10 14;animation:dash 7s linear infinite}
       @keyframes dash{to{stroke-dashoffset:-220}}
-      @keyframes pulse{50%{opacity:.45}}
     </style>
   </defs>
 
-  <rect width="1200" height="520" rx="30" fill="url(#bg)"/>
-  <circle cx="1030" cy="80" r="230" fill="#38bdf8" opacity=".08"/>
-  <circle cx="120" cy="440" r="260" fill="#10b981" opacity=".07"/>
-  <path d="M62 420 C245 352 395 466 560 392 S830 312 1078 390" fill="none" class="dash" opacity=".55"/>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="20" r="230" fill="#38bdf8" opacity=".07"/>
+  <circle cx="90" cy="350" r="230" fill="#10b981" opacity=".07"/>
+  <path d="M64 300 C240 250 390 326 560 276 S835 218 1080 280" fill="none" class="dash" opacity=".45"/>
 
-  <g transform="translate(70 76)">
-    <rect width="690" height="368" rx="28" fill="#07111f" stroke="#1e3a5f" filter="url(#soft)"/>
-    <rect x="24" y="24" width="642" height="44" rx="22" fill="#0b2033" stroke="#21425f"/>
-    <circle cx="50" cy="46" r="6" fill="#fb7185"/>
-    <circle cx="74" cy="46" r="6" fill="#f59e0b"/>
-    <circle cx="98" cy="46" r="6" fill="#10b981"/>
-    <text x="132" y="52" class="mono" font-size="14">yashchauhan66 / production-profile</text>
+  <g transform="translate(72 64)">
+    <text x="0" y="24" class="mono" font-size="15" fill="#38bdf8">yashchauhan66</text>
+    <text x="0" y="92" class="title" font-size="64">Yash Chauhan</text>
+    <rect x="2" y="113" width="286" height="5" rx="3" fill="url(#accent)"/>
+    <text x="0" y="162" class="lead" font-size="24">Full Stack Developer | MERN Stack | Cloud | AI</text>
+    <text x="0" y="202" class="muted" font-size="18">Building scalable web apps, backend APIs, DevOps workflows,</text>
+    <text x="0" y="230" class="muted" font-size="18">and AI-powered product features with production discipline.</text>
+  </g>
 
-    <text x="32" y="123" class="muted" font-size="17">FULL STACK DEVELOPER | AI ENGINEERING | CLOUD DELIVERY</text>
-    <text x="30" y="197" class="title" font-size="72">Yash Chauhan</text>
-    <rect x="32" y="217" width="270" height="5" rx="3" fill="url(#accent)"/>
-    <text x="32" y="267" class="lead" font-size="23">Building scalable web platforms, clean APIs,</text>
-    <text x="32" y="300" class="lead" font-size="23">AI workflows, and production-ready systems.</text>
+  <g transform="translate(748 58)" filter="url(#shadow)">
+    <rect width="372" height="244" rx="24" fill="#07111f" stroke="#1e3a5f"/>
+    <rect x="24" y="24" width="324" height="46" rx="16" fill="#0b2033" stroke="#21425f"/>
+    <circle cx="48" cy="47" r="6" fill="#38bdf8"/>
+    <text x="70" y="53" class="mono" font-size="13">Current focus</text>
 
-    <g transform="translate(32 326)">
-      <rect width="128" height="36" rx="18" fill="#0b2033" stroke="#38bdf8"/>
-      <text x="21" y="24" class="mono" font-size="12">React + TS</text>
-      <rect x="144" width="126" height="36" rx="18" fill="#0b2033" stroke="#10b981"/>
-      <text x="165" y="24" class="mono" font-size="12">Node APIs</text>
-      <rect x="286" width="126" height="36" rx="18" fill="#0b2033" stroke="#f59e0b"/>
-      <text x="307" y="24" class="mono" font-size="12">Docker/K8s</text>
-      <rect x="428" width="124" height="36" rx="18" fill="#0b2033" stroke="#e11d48"/>
-      <text x="451" y="24" class="mono" font-size="12">RAG/LLMs</text>
+    <g transform="translate(24 94)">
+      <rect width="150" height="54" rx="16" fill="#081827" stroke="#38bdf8"/>
+      <text x="18" y="23" class="mono" font-size="12" fill="#38bdf8">FRONTEND</text>
+      <text x="18" y="42" class="label" font-size="15">React + TypeScript</text>
+    </g>
+    <g transform="translate(198 94)">
+      <rect width="150" height="54" rx="16" fill="#081827" stroke="#10b981"/>
+      <text x="18" y="23" class="mono" font-size="12" fill="#10b981">BACKEND</text>
+      <text x="18" y="42" class="label" font-size="15">Node.js APIs</text>
+    </g>
+    <g transform="translate(24 166)">
+      <rect width="150" height="54" rx="16" fill="#081827" stroke="#f59e0b"/>
+      <text x="18" y="23" class="mono" font-size="12" fill="#f59e0b">DEVOPS</text>
+      <text x="18" y="42" class="label" font-size="15">Docker + K8s</text>
+    </g>
+    <g transform="translate(198 166)">
+      <rect width="150" height="54" rx="16" fill="#081827" stroke="#e11d48"/>
+      <text x="18" y="23" class="mono" font-size="12" fill="#fb7185">AI</text>
+      <text x="18" y="42" class="label" font-size="15">RAG + LLMs</text>
     </g>
   </g>
-
-  <g transform="translate(805 96)" filter="url(#soft)">
-    <path d="M95 0 L288 94 L95 188 L-98 94 Z" fill="#0b2033" stroke="#38bdf8"/>
-    <path d="M-98 94 L95 188 L95 318 L-98 220 Z" fill="#071827" stroke="#1e3a5f"/>
-    <path d="M288 94 L95 188 L95 318 L288 220 Z" fill="#081827" stroke="#1e3a5f"/>
-    <path d="M-98 220 L95 318 L288 220 L95 126 Z" fill="#06111f" opacity=".55"/>
-  </g>
-
-  <g filter="url(#glow)">
-    <circle cx="902" cy="251" r="92" fill="none" stroke="#1e3a5f" stroke-width="2"/>
-    <circle cx="902" cy="251" r="70" fill="none" stroke="url(#accent)" stroke-width="5" stroke-dasharray="18 14" class="orbit"/>
-    <circle cx="902" cy="251" r="47" fill="#07111f" stroke="#2563eb"/>
-    <text x="902" y="247" text-anchor="middle" class="title" font-size="24">YC</text>
-    <text x="902" y="274" text-anchor="middle" class="muted" font-size="13">build real</text>
-  </g>
-
-  <g transform="translate(820 370)">
-    <rect width="238" height="54" rx="16" fill="url(#panel)" stroke="#10b981"/>
-    <text x="22" y="24" class="mono" font-size="13" fill="#10b981">CURRENT</text>
-    <text x="22" y="42" class="small" font-size="15">MarketPivot fintech platform</text>
-  </g>
-  <g transform="translate(827 86)">
-    <rect width="224" height="54" rx="16" fill="url(#panel)" stroke="#38bdf8"/>
-    <text x="22" y="24" class="mono" font-size="13" fill="#38bdf8">FOCUS</text>
-    <text x="22" y="42" class="small" font-size="15">Product-grade engineering</text>
-  </g>
-  <circle cx="1080" cy="342" r="5" fill="#10b981" class="pulse"/>
-  <circle cx="770" cy="169" r="5" fill="#38bdf8" class="pulse"/>
 </svg>
